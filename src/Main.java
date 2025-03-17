@@ -75,7 +75,6 @@ public class Main {
             System.out.println("Третье число " + three + " cамое большое");
         }
         System.out.println("Домашняя работа завершена");
-
     }
 }
 
