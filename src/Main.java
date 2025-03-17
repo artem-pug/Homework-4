@@ -4,38 +4,34 @@ public class Main {
         int age = 7;
         if (age >= 18) {
             System.out.println("Если возраст человека равен" + age + " то он совершеннолетний! ");
-        }
-        if (age < 18) {
+        } else {
             System.out.println("Если возраст человека равен " + age + " то он не достиг совершеннолетия, нужно немного подождать! ");
         }
         System.out.println("Задание 2 ");
-        int temperature = 2;
+        int temperature = 8;
         if (temperature >= 5) {
             System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
-        }
-        if (temperature < 5) {
+        } else {
             System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
         }
         System.out.println("Задание 3");
         int speed = 70;
-        if (speed > 60) {
-            System.out.println("Если скорость " + speed + " , то придется заплатить штраф ");
-        }
         if (speed <= 60) {
             System.out.println("Если скорость " + speed + " ,то можно есдить спокойно ");
+        } else {
+            System.out.println("Если скорость " + speed + " , то придется заплатить штраф ");
         }
         System.out.println("Задание 4");
-        int year = 21;
+        int year = 29;
         if (year >= 2 && year <= 6) {
             System.out.println("Если возраст человека равен " + year + " , то ему нужно ходить в детский сад");
         }
-        if (year >= 7 && year <= 17) {
+        else if (year >= 7 && year <= 17) {
             System.out.println("Если возраст человека равен " + year + " , то ему нужно ходить в школу");
         }
-        if (year >= 18 && year <= 24) {
+        else if (year >= 18 && year <= 24) {
             System.out.println("Если возраст человека равен " + year + " , то ему нужно ходить в университет");
-        }
-        if (year > 24) {
+        } else {
             System.out.println("Если возраст человека равен " + year + " , то ему нужно ходить на работу");
         }
         System.out.println("Задание 5");
@@ -64,14 +60,14 @@ public class Main {
             System.out.println("Мест нет");
         }
         System.out.println("Задание 7");
-        int one = 46;
-        int two = 23;
-        int three = 22;
+        int one = 33;
+        int two = 77;
+        int three = 23;
         if (one > two && one > three) {
             System.out.println("Первое число " + one + " самое большое");
-        } else if (two > one && two > three) {
+        } else if (two > one && two > three)
             System.out.println("Второе число " + two + " самое большое");
-        } else {
+        else {
             System.out.println("Третье число " + three + " cамое большое");
         }
         System.out.println("Домашняя работа завершена");
